@@ -1,0 +1,8 @@
+ <div class="form-group">
+<%= simple_form_for [@restaurant] do |f| %>
+  <%= f.input :name %>
+  <%= f.input :address %>
+  <%= f.input :category %>
+  <%= f.submit "add a Resto", class: "btn btn-primary" %>
+<% end %>
+<div/>
